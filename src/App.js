@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import ItemListContainer from './components/ItemListContainer';
+import ItemListContainer from './components/ItemList';
+
+
 
 class App extends React.Component{
   
@@ -11,6 +13,7 @@ class App extends React.Component{
       <div className = "container">
         <Navbar/>
         <ItemListContainer greating={ greating }/>
+        
       </div>
     )
     
